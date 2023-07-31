@@ -85,8 +85,7 @@ module.exports = {
         { name: "**Owner: **", value: `<@${owner}>`, inline: false },
         { name: "**------------- Overview -------------**", value: `**Members:**\nTotal: \`${totalMembers}\` **-** Humans: \`${totalHumans}\` **-** Bots: \`${totalBots}\`\n**Channels:**\nTotal: \`${totalChannels}\` **-** Text: \`${totalTextChannels}\` **-** Voice: \`${totalVoiceChannels}\``, inline: false },
 
-        { name: "**--------------- Other**", value: `**Roles:**\n${totalRoles} **-** **Boosts:**\n${totalBoost}`, inline: true },
-        { name: "**--------------** ", value: ``, inline: true },
+        { name: "**--------------- Other --------------**", value: `**Roles:**\n${totalRoles} **-** **Boosts:**\n${totalBoost}`, inline: true },
         { name: "**Creation Date: **", value: `${creationDate}`, inline: false }
       ],
       footer: {
