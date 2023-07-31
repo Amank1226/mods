@@ -96,7 +96,6 @@ module.exports = {
     try {
       await channel.send({ embeds: [embed] });
       console.log(`Server info sent to channel "${channel.name}"`);
-      message.channel.send(`Server info sent to channel "${channel.name}"`);
     } catch (error) {
       console.error(`Error sending server info: ${error}`);
       message.channel.send(`Error sending server info to channel "${channel.name}".`);
